@@ -1,0 +1,447 @@
+@font-face {
+    font-family: Tavolga;
+    src: url("../fonts/tavolga-free.ttf");
+}
+
+@font-face {
+    font-family: GilroyBold;
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+    font-family: GilroyExtraBold;
+    src: url("../fonts/Gilroy-Extrabold.ttf");
+}
+
+@font-face {
+    font-family: GilroyMedium;
+    src: url("../fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url("../fonts/Gilroy-Regular.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    background-color: rgb(235, 168, 177);
+}
+
+#header-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 0;
+}
+
+.logo {
+    font-size: 18px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    width: 324px;
+}
+
+#menu a.menu-item {
+    padding: 3px 0;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "GilroyMedium", sans-serif;
+    color: rgb(119, 11, 29);
+    box-sizing: border-box;
+    border: 2px solid rgb(235, 168, 177);
+    transition: 0.3s;
+}
+
+#menu a.menu-item:hover {
+    border-bottom: 2px solid rgb(119, 11, 29);
+}
+
+.number {
+    font-size: 16px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#main {
+    background-color: rgb(235, 168, 177)
+}
+
+#main-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-info {
+    padding-top: 140px;
+}
+
+#main-info h1 {
+    margin: 0;
+    max-width: 585px;
+    font-size: 55px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#main-text {
+    margin-top: 60px;
+    font-size: 18px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.389;
+    max-width: 360px;
+}
+
+.btn {
+    border: 0;
+    outline: 0;
+    padding: 22px 0;
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    background: #f8bcc4;
+}
+.btn:hover {
+    background-image: -moz-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+}
+
+#main-action .btn {
+    width: 240px;
+    margin-top: 80px;
+    margin-bottom: 145px;
+}
+
+#about {
+    background: #ffefef;
+}
+
+#about-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 119px;
+}
+
+#about-info-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about-info-title {
+    font-size: 45px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+    max-width: 475px;
+}
+
+#about-info-text {
+    font-size: 18px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    max-width: 400px;
+    margin-top: 60px;
+}
+
+.benefits-item {
+    width: 222px;
+    height: 225px;
+}
+
+#about-benefits {
+    margin-top: 80px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.benefits-item-num {
+    font-size: 60px;
+    font-family: "GilroyExtraBold", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.75;
+    position: absolute;
+    bottom: 2px;
+    left: 22px;
+}
+
+.benefits-item-num-bg {
+    position: relative;
+}
+
+.benefits-item-title {
+    font-size: 20px;
+    font-family: "GilroyExtraBold", sans-serif;
+    color: rgb(51, 25, 7);
+    margin-top: 11px;
+}
+
+.benefits-item-text {
+    font-size: 15px;
+    font-family: "GilroyMedium", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.333;
+    margin-top: 23px;
+}
+
+#product {
+    background: #eba8b1;
+}
+
+#product-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+#product-title {
+    font-size: 45px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#product-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 143px;
+}
+
+#product-items .product-title {
+    font-size: 18px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 109px;
+}
+
+#product-items .ap {
+    font-size: 15px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#product-items .product-amount-prise-order {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 26px;
+    padding-bottom: 27px;
+}
+
+.product-item {
+    position: relative;
+    border: 2px solid rgb(255, 255, 255);
+    width: 259px;
+    border-radius: 20px;
+}
+
+.product-item .product-img {
+    position: absolute;
+    top: -60px;
+    left: 35px;
+}
+
+.product-order .btn {
+    background: #f3a600;
+    width: 130px;
+    font-size: 16px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.6;;
+}
+.product-order .btn:hover {
+    background-image: -moz-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+}
+
+.ap {
+    padding: 6px 0;
+}
+
+#order {
+
+    background: #ffefef;
+}
+
+#order-content {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 98px 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+#order-make {
+    width: 410px;
+    margin-left: 160px;
+}
+
+#order-title {
+    font-size: 45px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(51, 25, 7);
+}
+
+#preferences-text {
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    text-align: left;
+}
+
+.order-form-text {
+    margin: 35px 0 15px 0;
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(18, 10, 6);
+}
+
+.input {
+    outline: 0;
+    border: 1px solid rgb(130, 19, 40);
+    border-radius: 30px;
+    width: 293px;
+    box-sizing: border-box;
+    background: #ffefef;
+    padding: 22px 0 22px 25px;
+    margin: 5px 0;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(118, 12, 34);
+}
+
+#order-form span {
+    display: block;
+}
+
+#order-form .btn {
+    background: #f3a600;
+    width: 293px;
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    margin-top: 10px;
+}
+#order-form .btn:hover {
+    background-image: -moz-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+}
+
+#order-img {
+    margin-bottom: -85px;
+}
+
+#strawberry {
+    position: absolute;
+    top: 133px;
+    right: 1131px;
+}
+
+#strawberry-little {
+    position: absolute;
+    bottom: 182px;
+    right: 118px;
+    transform: scale(-1, 1);
+}
+
+#strawberry-little img {
+    width: 50px;
+}
+#footer {
+    background: #c0707c;
+}
+#footer-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 73px 0 62px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#rigths {
+    font-size: 12px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(227, 172, 180);
+    margin-top: 19px;
+}
+#insta-text {
+    font-size: 16px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+#insta-icon svg {
+    width: 35px;
+    height: 35px;
+    fill: black;
+}
+#insta {
+    text-align: center;
+}
+#insta:hover svg {
+    fill: white;
+}
+#burger {
+    display: none;
+}
+#menu svg {
+    display: none;
+}
+#first-para {
+    height: 500px;
+    overflow: hidden
+}
+#second-para {
+    height: 350px;
+    overflow: hidden
+}
+#third-para {
+    height: 500px;
+    overflow: hidden
+}
+
+.registr-popup {
+    font-family: Tavolga,sans-serif;
+    font-size: 25px;
+    color: rgb(113, 8, 30);
+    border: 5px solid rgba(255, 255, 255, 0.65);
+    border-radius: 15px;
+    position: relative;
+    background: rgb(227, 172, 180);
+    padding: 40px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
